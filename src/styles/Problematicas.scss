@@ -1,0 +1,64 @@
+.problematicas-container{
+    height: 100vh;
+    /*background-image: url(./images/problematica-img.png);   */
+    background-color: grey;
+    
+}
+
+#problematicas-item-container {
+    display: flex;
+    justify-content: right;
+    padding-right: 100px;
+}
+
+#problematicas-title {
+    margin-bottom: 110px;
+    margin-top: 0px;
+    padding-top: 140px;
+    padding-left: 130px;
+    color: white;
+    
+}
+.problematicas-items {
+    width: 330px;
+    text-align: center;
+    color: white;
+    
+}
+
+.problematicas-items-title {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.problematicas-items-text {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.problematicas-second-container {
+    height: 750px;
+    /*border-radius: 102px 102px 0px 0px;*/
+    background-color: var(--yellow-bg);
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 100px;
+    
+
+}
+
+#problematicas-second-item-container{
+    display: flex;
+    flex-direction: column;
+    width: 718px;
+    justify-content: center;
+    text-align: center;
+}
+
+#problematicas-second-img{
+    background-color: rgba(0, 0, 0, 0.2);;
+    height: 383px ;
+}   

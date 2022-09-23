@@ -1,0 +1,30 @@
+@import 'Vars';
+
+#navbar-container {
+    height: 89px;
+    width: 90%;
+    padding: 15px 100px 22px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+#navbar-logo-mobile {
+    display: none;
+}
+#navbar-logo{
+    width: 200px;
+    height: 100%;
+    
+}
+
+#navbar-cta {
+    width: 250px;
+    height: 50%;
+    
+    background-color: var(--action-green);
+    border-radius: 49px;    
+    color: white;
+    
+}

@@ -1,0 +1,41 @@
+.CTA-final-container-full{
+    display: flex;
+    margin: 0px 100px 100px 100px;
+    height: 600px;
+    padding-top: 20px;
+    
+}
+
+#CTA-final-img{
+    width: 40%;
+    height: 575px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    margin: 60px;
+}
+
+.CTA-final-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#CTA-final-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#CTA-final-button >button {
+    width: 261px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: var(--action-green);
+    color: white;
+    cursor: pointer;
+}
+
+#CTA-final-button >button:hover {
+    background-image: linear-gradient(to right top, #ff0000, #ff004c, #f8008c, #c000cc, #0038ff);
+}

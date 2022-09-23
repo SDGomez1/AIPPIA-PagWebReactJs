@@ -1,0 +1,41 @@
+#guia-full-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    .guia-container {
+        display: flex;
+        padding-left: 100px;
+        padding-right: 100px;
+        height: 500px;
+    }
+    
+    #guia-img {
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 55%;
+    }
+    #guia-container-text{
+        width: 40%; 
+        padding-right: 200px;
+        padding-left: 160px;
+        padding-top: 20px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    
+    #guia-container-empth {
+        padding-top: 100px;
+        width: 1024px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+       
+    }
+    
+    #guia-empth-text {
+        padding: 0px 60px 0px 60px;
+    }

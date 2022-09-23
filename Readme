@@ -1,0 +1,24 @@
+install node modules
+
+1. react react-dom
+
+2. webpack webpack-cli
+
+3. webpack-dev-server
+
+4. @babel/core @babel/preset-env @babel/preset-react babel-loader
+
+5. html-loader html-webpack-plugin
+
+6. react-router-dom
+node modules in dev mode 
+
+1. css-loader
+
+2. mini-css-extract-plugin
+
+3. sass-loader
+
+4. style-loader
+
+

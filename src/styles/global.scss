@@ -1,7 +1,22 @@
-$base-color: #ff0000;
-$color: #000000;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+/* Configuración global del body y tamano de fuentes */
+/* Definicion de variables de entorno */
+
 
 body {
-    background-color: $base-color;
-    color: $color;
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 32px;
+    
+}
+p{
+    font-size: 24px;
 }

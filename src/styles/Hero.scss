@@ -1,0 +1,42 @@
+.hero-container{
+    width: 100%;
+    height: 675px;
+    background-color:  rgba(0, 0, 0, 0.2);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+
+}
+
+#hero-title {
+    width: 930px;
+}
+
+#hero-subtitle {
+    width: 840px;
+    font-weight: 400;
+}
+
+.hero-CTA-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 260px;
+}
+
+#hero-CTA-subtitle {
+    margin-bottom: 10px;
+}
+
+#hero-CTA-button {
+    width: 331px;
+    height: 64px;
+    background:var(--action-green);
+    border-radius: 49px;
+    color: white;
+}
