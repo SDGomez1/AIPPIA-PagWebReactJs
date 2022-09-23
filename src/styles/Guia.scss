@@ -39,3 +39,57 @@
     #guia-empth-text {
         padding: 0px 60px 0px 60px;
     }
+
+
+/*Small devices - Phones*/
+@media (max-width: 575.98px) {
+    .guia-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        height: 600px;
+        width: 100%
+    }
+    #guia-img {
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 250px;
+    }
+    #guia-container-text{
+         width: 70%;
+        padding: 0px 20px 0px 42px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        overflow: hidden;
+    }
+    
+    #guia-container-empth {
+        padding-top: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+       
+    }
+    #guia-empth-title{
+        width: 80%;
+        padding: 0%;
+    }
+    #guia-empth-text {
+        padding: 30px 20px 0px 42px;
+        width: 70%
+    }
+}
+
+/*medium devices - Tablets*/
+@media (max-width: 767.98px) {
+
+}
+
+/*Large devices - Desktop*/
+@media (max-width: 1365.98px) {
+
+}

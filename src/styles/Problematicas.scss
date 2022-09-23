@@ -62,3 +62,74 @@
     background-color: rgba(0, 0, 0, 0.2);;
     height: 383px ;
 }   
+
+
+/*Small devices - Phones*/
+@media (max-width: 575.98px) {
+    #problematicas-item-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 44px;
+        height: 80vh;
+
+    }
+    
+    #problematicas-title {
+        margin-bottom: 50px;
+        margin-top: 0px;
+        padding-top: 40px;
+        padding-left: 24px;
+    }
+    .problematicas-items {
+        width: 150px;
+        text-align: center;
+        padding-bottom: 80px;
+        
+    }
+    
+    .problematicas-items-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .problematicas-items-text {
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    /* Estilos de problematicas 2*/
+
+    .problematicas-second-container {
+        height: 850px;
+        border-radius: 0px;
+        background-color: var(--yellow-bg);
+        padding: 40px 50px 100px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 0px;
+        
+    }
+
+    #problematicas-second-item-container{
+        text-align: left;
+    }
+
+    #problematicas-second-img{
+        
+        margin: 40px 0px 40px 0px;
+
+    }
+
+}
+
+/*medium devices - Tablets*/
+@media (max-width: 767.98px) {
+
+}
+
+/*Large devices - Desktop*/
+@media (max-width: 1365.98px    ) {
+
+}

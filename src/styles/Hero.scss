@@ -12,11 +12,14 @@
 
 #hero-title {
     width: 930px;
+  
+
 }
 
 #hero-subtitle {
     width: 840px;
     font-weight: 400;
+    
 }
 
 .hero-CTA-container {
@@ -39,4 +42,59 @@
     background:var(--action-green);
     border-radius: 49px;
     color: white;
+}
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    
+    .hero-container{
+        width: 100%;
+        height: 400px;
+        
+     
+    }
+    
+    #hero-title {
+        width: 320px;
+    }
+    
+    #hero-subtitle {
+        width: 320px;
+        font-weight: 400;
+    }
+    
+    .hero-CTA-container {
+    
+        
+        height: 348px;
+    }
+    
+    #hero-CTA-subtitle {
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    #hero-CTA-text {
+        margin-bottom: 60px;
+    }
+    #hero-CTA-button {
+        width: 170px;
+        height: 50px;
+        background: #000000;
+        border-radius: 49px;
+    }
+
+}
+
+/*medium devices - Tablets*/
+@media (max-width: 767.98px) {
+
+}
+
+/*Large devices - Desktop*/
+@media (max-width: 1365.98px) {
+
 }
