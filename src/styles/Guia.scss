@@ -47,7 +47,7 @@
         display: flex;
         flex-direction: column;
         padding: 0px;
-        height: 600px;
+        height: auto;
         width: 100%
     }
     #guia-img {
@@ -56,17 +56,20 @@
         height: 250px;
     }
     #guia-container-text{
-         width: 70%;
-        padding: 0px 20px 0px 42px;
+         width: 100%;
+        padding: 0;
         text-align: left;
         display: flex;
         flex-direction: column;
         justify-items: center;
         overflow: hidden;
+        height: auto;
+        text-align: center;
     }
     
     #guia-container-empth {
         padding-top: 0px;
+        padding-right: 0;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -75,13 +78,17 @@
        
     }
     #guia-empth-title{
-        width: 80%;
+        width: 100%;
         padding: 0%;
     }
     #guia-empth-text {
-        padding: 30px 20px 0px 42px;
-        width: 70%
+        padding: 0;
+        width: 100%
     }
+  
+    .guia-text {
+    padding: 20px;  
+  }
 }
 
 /*medium devices - Tablets*/

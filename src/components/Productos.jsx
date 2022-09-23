@@ -14,13 +14,13 @@ const Productos = () => {
 
         <div id="producto-text-img-container" className='desktop'>
             <div className="producto-text-container " id ="producto-text-container1">
-                <p>
+                <p className='productos-p'> 
                     Vegetales cultivados en un ambiente controlado y cerrado
                 </p>
-                <p>
+                <p className='productos-p'>
                     la producción se cultiva verticalmente
                 </p>
-                <p>
+                <p className='productos-p'>
                     crece en condiciones óptimas para su desarrollo con control de luz, agua y nutrientes.
                 </p>
             </div>
@@ -28,13 +28,13 @@ const Productos = () => {
 
             </div>
             <div className="producto-text-container" id = "producto-text-container2">
-                <p>
+                <p className='productos-p'>
                     No se utilizan pesticidas ni químicos.
                 </p>
-                <p>
+                <p className='productos-p'>
                     Cultivados con técnicas hidropónicas.
                 </p>
-                <p>
+                <p className='productos-p'>
                     Se cultivan dentro de la ciudad
                                         
 
@@ -51,24 +51,24 @@ const Productos = () => {
             </div>
             <div className='mobile-text-container'>
             <div className="producto-text-container " id ="producto-text-container1">
-                <p>
+                <p className='productos-p'>
                     Vegetales cultivados en un ambiente controlado y cerrado
-                </p>
-                <p>
+                </p >
+                <p className='productos-p'>
                     la producción se cultiva verticalmente
                 </p>
-                <p>
+                <p className='productos-p'>
                     crece en condiciones óptimas para su desarrollo con control de luz, agua y nutrientes.
                 </p>
             </div>
             <div className="producto-text-container" id = "producto-text-container2">
-                <p>
+                <p className='productos-p'>
                     No se utilizan pesticidas ni químicos.
                 </p>
-                <p>
+                <p className='productos-p'>
                     Cultivados con técnicas hidropónicas.
                 </p>
-                <p>
+                <p className='productos-p'>
                     Se cultivan dentro de la ciudad
                                         
 

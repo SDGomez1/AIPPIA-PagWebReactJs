@@ -42,7 +42,7 @@ const CtaFinal = () => {
             
         </div>
         <div className="CTA-final-container-full CTA-final-mobile">
-        <h2>Mira lo que puedes lograr con vegetales AIPPIA</h2>
+        <h2 id='CTA-final-title'>Mira lo que puedes lograr con vegetales AIPPIA</h2>
 
         <div id ="CTA-final-img">
                 
@@ -50,16 +50,16 @@ const CtaFinal = () => {
 
             <div className="CTA-final-container">
                 <ul>
-                    <li>
+                    <li className='CTA-final-list-items'>
                         Los vegetales AIPPIA te aportan mayor cantidad nutricional y beneficios a tu salud.
                     </li>
-                    <li>
+                    <li className='CTA-final-list-items'>
                         No tienes necesidad de lavarlos ya que se plantan sin tierra y fuera de insectos, se tiene un protocolo riguroso sanitario en cada vegetal.
                     </li>
-                    <li>
+                    <li className='CTA-final-list-items'>
                         Los vegetales que llegan a tu mesa reducen la emisión de CO2 ya que al cultivarse dentro de la ciudad no es necesario transportarlos a largas distancias.   
                     </li>
-                    <li>
+                    <li className='CTA-final-list-items'>
                         Ayudas a que ya no sea necesario buscar grandes extensiones de tierra para cultivar masivamente, ya que los vegetales de AIPPIA se cultiva en forma vertical.
                     </li>
                 </ul>

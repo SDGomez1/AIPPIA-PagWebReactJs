@@ -33,6 +33,10 @@ p{
     p{
         font-size: 14px;
     }
+
+    body {
+        max-width: inherit !important;
+    }
 }
 
 /*medium devices - Tablets*/

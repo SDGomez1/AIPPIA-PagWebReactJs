@@ -4,6 +4,7 @@
     align-items: center;
     height: 100vh;
     justify-content: center;
+    
 }
 
 #comments-form-container{
@@ -12,10 +13,10 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 40px;
+    background-color: #1B2F11;
     height: 350px;
     margin-bottom: 100px;
+    color: white;
 }
 
 .comments-button-container{
@@ -29,9 +30,9 @@
 .comments-button-container>button {
     width: 240px;
     height: 40px;
-    background: var(--action-green);
+    background: var(--yellow-bg);
     border-radius: 49px;
-    color: white;
+    color: black;
 }
 
 input {
@@ -39,6 +40,7 @@ input {
     height: 30px;
     border-radius: 10px;
     text-align: center;
+    
 }
 #comments-logo {
     scale: 0.5;
@@ -46,21 +48,52 @@ input {
 }
 
 /*Small devices - Phones*/
-@media (min-width: 576px) {
+@media (max-width: 575.98px){
+    #comments-title{
+        padding: 20px 20px 0px 20px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #comments-subtitle {
+        padding: 0px 20px 20px 20px;
+    }
+    .comments-button-container
+    {
+        flex-direction: column;
+    }
+    .comments-container-full{
+        
+        height: auto;
+        overflow: hidden;
+      
+    }
 
+    #comments-subsubtitle {
+        padding: 0px 20px 0px 20px;
+    }
+    #comments-form-container{
+        height: auto;
+        padding: 30px 0px 30px 0px;
+    }
+
+    #comments-text{
+        padding: 0px 20px 0px 20px;
+        text-align: center;
+    }
+    .comments-input {
+        margin-bottom: 20px;
+    }
+    #comments-form-container {
+        margin-bottom: 20px;
+    }
 }
 
 /*medium devices - Tablets*/
-@media (min-width: 768px) {
+@media (max-width: 767.98px) {
 
 }
 
 /*Large devices - Desktop*/
-@media (min-width: 992px) {
-
-}
-
-/*Extra larga devices - */
-@media (min-width: 1200px) {
+@media (max-width: 1365.98px) {
 
 }

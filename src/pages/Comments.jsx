@@ -13,25 +13,25 @@ const Comments = () => {
 
         <div className="comments-container-full">
 
-        <h2>
+        <h2 id='comments-title'>
             ¡Gracias por querer cambiar al mundo!   
         </h2>
-        <p>
+        <p id='comments-subtitle'>
             Aún estamos en construcción, pero queremos que seas de los primeros en obtener nuestros productos!
         </p>
 
         <div id = "comments-form-container">
 
-               <h3>
+               <h3 id='comments-subsubtitle'>
                 Da el primer paso a la transformación
               </h3> 
 
-              <p>
+              <p id='comments-text'>
                 Haz que todos quieran seguir tus pasos, creemos en ti. 
               </p>
               <div className="comments-button-container">
                 <form>
-                    <input type="text" value="Email"/>
+                    <input type="text" placeholder ="Email" className='comments-input'/>
                 </form>
                 <button>suscribirse</button>
 
@@ -39,7 +39,7 @@ const Comments = () => {
 
             <div className="comments-button-container">
                 <form>
-                    <input type="text" value="Comentarios"/>
+                    <input type="text" placeholder ="Comentarios" className='comments-input'/>
                 </form>
                 <button>subir comentario</button>
 
