@@ -1,8 +1,17 @@
 import React, { Fragment, useState } from 'react'
 import '@styles/CtaFinal.scss'
+import {useNavigate} from 'react-router-dom';
+
+
+const page = '/comments'
+
 
 const CtaFinal = () => {
-  
+    let navigate = useNavigate();
+    function handleClick() {
+    navigate(page);
+  }
+
     return (
         
         <Fragment>
@@ -34,7 +43,7 @@ const CtaFinal = () => {
         </div>
         <div id = "CTA-final-button" >
 
-            <button >Consiguelos! </button>
+            <button onClick={handleClick}>Consiguelos! </button>
            
         </div>
         </Fragment>

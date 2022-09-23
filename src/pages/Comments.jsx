@@ -1,7 +1,14 @@
 import React from 'react'
 import '@styles/Comments.scss'
 import logoReduced from '@icons/aippiaLogoReduced.svg';
+import { useNavigate } from 'react-router-dom';
+
+const page = ('/')
 const Comments = () => {
+    let navigate = useNavigate();
+    function handleClick() {
+    navigate(page);
+  }
     return (
 
         <div className="comments-container-full">
@@ -40,7 +47,7 @@ const Comments = () => {
 
             
         </div>
-        <img  id = "comments-logo" src={logoReduced} alt="Logo"/>
+        <img  id = "comments-logo" src={logoReduced} alt="Logo" onClick={handleClick}/>
     </div>
     );
 }

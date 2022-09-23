@@ -1,8 +1,13 @@
 import React from 'react'
 import '@styles/Productos.scss'
+import { useNavigate } from 'react-router-dom';
 
-
+const page = '/comments'
 const Productos = () => {
+    let navigate = useNavigate();
+    function handleClick() {
+    navigate(page);
+  }
     return (
         <div className="product-container-full">
         <h1>¿Cómo actuamos? </h1>
@@ -37,7 +42,7 @@ const Productos = () => {
             </div>
         </div>
         <div id ="producto-CTA-container">
-            <button>Los quiero ya</button>
+            <button onClick={handleClick}>Los quiero ya</button>
         </div>
     </div>
     );

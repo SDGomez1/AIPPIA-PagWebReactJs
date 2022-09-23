@@ -1,6 +1,14 @@
 import React, { Fragment } from 'react'
 import '@styles/Hero.scss'
+import { useNavigate } from 'react-router-dom';
+
+const page = '/comments';
+
 const Hero = () => {
+    let navigate = useNavigate();
+    function handleClick() {
+    navigate(page);
+  }
     return (
         <Fragment>
         <div className="hero-container">
@@ -21,7 +29,7 @@ const Hero = () => {
             <p id = "hero-CTA-text">
                 ¡Haz parte de la revolución tecnológica!
             </p>
-            <button id = "hero-CTA-button"> Descubre ahora</button>
+            <button id = "hero-CTA-button" onClick={handleClick}> Descubre ahora</button>
         </div>
         </Fragment>
     );
