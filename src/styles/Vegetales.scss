@@ -25,6 +25,9 @@
     align-self: center;
     
 }
+.vegetales-mobile {
+    display: none;
+}
 
 /*Small devices - Phones*/
 @media (max-width: 575.98px) {
@@ -56,6 +59,12 @@
         text-align: center;
         align-self: center;
         
+    }
+    .vegetales-mobile{
+        display: flex;
+    }
+    .vegetales-desktop{
+        display: none;
     }
 }
 

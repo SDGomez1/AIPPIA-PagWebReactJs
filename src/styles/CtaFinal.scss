@@ -36,26 +36,53 @@
     cursor: pointer;
 }
 
+.CTA-final-mobile{
+    display: none;
+}
+
 #CTA-final-button >button:hover {
     background-image: linear-gradient(to right top, #ff0000, #ff004c, #f8008c, #c000cc, #0038ff);
 }
 
 /*Small devices - Phones*/
-@media (min-width: 576px) {
+@media (max-width: 575.98px) {
+    .CTA-final-container-full{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    #CTA-final-img{
+        width: 70%;        
+        height: 30vh;
+    }
+    .CTA-final-desktop {
+        display: none;
+    }
 
+    .CTA-final-mobile{
+        display: flex;
+    }
+    .CTA-final-container{
+        justify-content: center;
+        width: 70%;
+        margin: 50px;
+    }
+    li {
+        margin-bottom: 30px;
+    }
 }
 
+
 /*medium devices - Tablets*/
-@media (min-width: 768px) {
+@media (max-width: 767.98px) {
 
 }
 
 /*Large devices - Desktop*/
-@media (min-width: 992px) {
-
-}
-
-/*Extra larga devices - */
-@media (min-width: 1200px) {
+@media (max-width: 1365.98px) {
 
 }
