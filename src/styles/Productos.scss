@@ -1,3 +1,4 @@
+
 .product-container-full{
     height: 100vh;
     display: flex;
@@ -48,6 +49,10 @@
     border-radius: 38px;
     color: white;
 }
+
+.mobile{
+    display: none !important;
+}
 /*Small devices - Phones*/
 @media (max-width: 575.98px) {
     #producto-text-img-container{
@@ -95,6 +100,13 @@
         background: var(--action-green);
         border-radius: 38px;
         color: white;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+    .mobile {
+        display: flex !important;
     }
 }
 
