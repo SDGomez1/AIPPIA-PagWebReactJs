@@ -3,7 +3,7 @@
     
     
     height: 100vh;
-    background-image: url('@imgs/QueEs-img-desktop.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('@imgs/QueEs-img-desktop.jpg');
     display: flex;
     flex-direction: column;
 }
@@ -37,7 +37,11 @@
     
         margin:0px;
         height: 100vh;
-        padding-left: 40px;
+        padding-left: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('@imgs/QueEs-img-mobile.jpg');
+
         
     }
     #que-es-text1{
@@ -52,6 +56,10 @@
         text-align: left;
     }
 
+    .que-es-text-p {
+        padding: 0px 40px;
+        font-size: 21px;
+    }
 }
 
 /*medium devices - Tablets*/

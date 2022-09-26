@@ -12,7 +12,7 @@
     background-image: url('@imgs/CTa-final-img-desktop.png');
     background-size: cover;
     border-radius: 40px;
-    margin: 0px 60px 60px 60px;
+    margin: 0px 60px ;
 }
 
 .CTA-final-container {
@@ -42,13 +42,16 @@
 }
 
 #CTA-final-button >button:hover {
-    background-image: linear-gradient(to right top, #ff0000, #ff004c, #f8008c, #c000cc, #0038ff);
+    background-color: white;
+    color: var(--action-green);
+    cursor: pointer; 
 }
 
 .CTA-final-list-items {
     margin-bottom: 30px;
     padding-right: 30px;
-    font-size: 24px;
+    font-size: 14px;
+    text-align: left;
 }
 
 /*Small devices - Phones*/

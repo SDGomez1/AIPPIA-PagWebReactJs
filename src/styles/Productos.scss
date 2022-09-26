@@ -59,12 +59,13 @@
 @media (max-width: 575.98px) {
 
     .product-container-full {
-        margin-bottom: 100px;
+        margin-bottom: 40px;
         height: auto;
     }
 
     .product-container-full >h1{
         text-align: center;
+        margin: 40px 0px;
     }
 
     #producto-text-img-container{
@@ -81,7 +82,7 @@
         justify-content: space-between;
         width: 10%;
         padding-right: 0px;
-        text-align: center;
+        
     
     }
     #producto-text-container1{
@@ -93,7 +94,9 @@
     }
     #producto-img {
         width: 40%;
-        background-color: rgba(0, 0, 0, 0.2);
+        background-image: url('@imgs/productos-img-desktop.png');
+        background-size: cover;
+        
     
     }
     
@@ -112,6 +115,7 @@
         background: var(--action-green);
         border-radius: 38px;
         color: white;
+        display: none;
     }
 
     .desktop {
@@ -128,7 +132,7 @@
     }
     .productos-p {
         font-size: 14px;
-        text-align: left;
+        text-align: center;
         width: 140px;
     }
 }

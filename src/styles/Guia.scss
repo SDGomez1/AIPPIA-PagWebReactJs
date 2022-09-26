@@ -59,6 +59,7 @@
         background-color: rgba(0, 0, 0, 0.2);
         width: 100%;
         height: 250px;
+        margin-bottom: 30px;
     }
     #guia-container-text{
          width: 100%;
@@ -69,7 +70,13 @@
         justify-items: center;
         overflow: hidden;
         height: auto;
+        text-align: left;
+        
+    }
+    #guia-container-text>h2 {
+        font-size: 24px;
         text-align: center;
+        
     }
     
     #guia-container-empth {
@@ -85,14 +92,17 @@
     #guia-empth-title{
         width: 100%;
         padding: 0%;
+        font-size: 24px;
     }
     #guia-empth-text {
         padding: 0;
-        width: 100%
+        width: 100%;
+        font-size: 21px;
     }
   
     .guia-text {
-    padding: 20px;  
+    padding: 20px 50px; 
+    font-size: 14px; 
   }
 }
 

@@ -8,11 +8,11 @@ const text_input = [
 ]
 
 const items_input = {
-    number: ['10M', '10M', '10M'],
+    number: ['10M', '100M', '200.000'],
     text: [
         'De hectareas de bosque quemadas para cultivos',
-        'De hectareas de bosque quemadas para cultivos',
-        'De hectareas de bosque quemadas para cultivos'
+        'De litros de agua desperdiciados en cultivos',
+        'Casos de intoxicación por glifosato'
         ]
 }
 
@@ -42,7 +42,7 @@ const Problematicas = () => {
                 </div>
             </div>
             </div>
-            <div className="problematicas-second-container">
+            <div className="problematicas-second-container-desktop">
                 
                   
                     <div className="problematicas-second-img" >
@@ -59,6 +59,24 @@ const Problematicas = () => {
                     
                 
             </div>
+
+            <div className="problematicas-second-container-mobile">
+                
+                  
+              
+                <div className="problematicas-second-container" id = 'problematicas-second-img3'>
+                    a
+                </div>
+                <div className="problematicas-second-container" >
+                    <p >
+                    {text_input[1]}
+                    </p>
+                    <p id = 'problematicas-second-text'>
+                    {text_input[2]}
+                    </p>
+                </div>
+            
+        </div>
             </Fragment>
     );
 }

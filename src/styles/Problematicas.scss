@@ -37,7 +37,7 @@
     margin-top: 5px;
 }
 
-.problematicas-second-container {
+.problematicas-second-container-desktop {
     height: 950px;
     /*border-radius: 102px 102px 0px 0px;*/
     background-color: var(--yellow-bg);
@@ -75,6 +75,9 @@
 #problematicas-second-text {
     font-size: 36px;
 }
+.problematicas-second-container-mobile {
+    display: none;
+}
 
 /*Small devices - Phones*/
 @media (max-width: 575.98px) {
@@ -106,34 +109,44 @@
         margin-bottom: 5px;
     }
     .problematicas-items-text {
-        font-size: 14px;
+        font-size: 21px;
         font-weight: bold;
         margin-top: 5px;
     }
     /* Estilos de problematicas 2*/
 
-    .problematicas-second-container {
-        height: 850px;
-        border-radius: 0px;
-        background-color: var(--yellow-bg);
-        padding: 40px 50px 100px 50px;
+    .problematicas-second-container-desktop {
+        display: none;
+    }
+    .problematicas-second-container-mobile {
         display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        margin-bottom: 0px;
-        
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        background-color: var(--yellow-bg);
+        height: 88vh;
     }
 
-    #problematicas-second-item-container{
+    #problematicas-second-img3 {
+        height: 250px;
+        background-image: url('@imgs/problematicas-imeg2-desktop.png');
+        margin: 40px 0px 75px 0px;
+        background-size: cover;
+    }
+    
+    #problematicas-second-text {
+        font-size: 14px;
+        padding: 0px 50px;
         text-align: left;
     }
-
-    #problematicas-second-img{
-        
-        margin: 40px 0px 40px 0px;
-
+    .problematicas-second-container>p {
+        text-align: center;
+        margin: 0px 0px 75px 0px;
+        padding: 0px 50px;
+        text-align: left;
     }
-
+   
 }
 
 /*medium devices - Tablets*/

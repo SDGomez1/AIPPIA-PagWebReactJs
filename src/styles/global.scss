@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
 
 /* Configuración global del body y tamano de fuentes */
 /* Definicion de variables de entorno */
@@ -7,7 +9,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 h1 {
@@ -39,6 +41,7 @@ p{
         
     }
 }
+
 
 /*medium devices - Tablets*/
 @media (max-width: 767.98px) {
