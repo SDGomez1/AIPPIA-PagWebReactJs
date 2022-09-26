@@ -1,7 +1,7 @@
 .problematicas-container{
     height: 100vh;
     /*background-image: url(./images/problematica-img.png);   */
-    background-color: grey;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('@imgs/Problematicas-fullimg-desktop.png');
     
 }
 
@@ -12,7 +12,7 @@
 }
 
 #problematicas-title {
-    margin-bottom: 110px;
+    margin-bottom: 310px;
     margin-top: 0px;
     padding-top: 140px;
     padding-left: 130px;
@@ -38,31 +38,43 @@
 }
 
 .problematicas-second-container {
-    height: 750px;
+    height: 950px;
     /*border-radius: 102px 102px 0px 0px;*/
     background-color: var(--yellow-bg);
-    padding-top: 70px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 100px;
+    
     
 
 }
 
-#problematicas-second-item-container{
+
+.problematicas-second-img{
+    height: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    width: 718px;
     justify-content: center;
+    
+}   
+.problematicas-second-img>p {
     text-align: center;
+    padding: 10px 150px; 
 }
 
-#problematicas-second-img{
-    background-color: rgba(0, 0, 0, 0.2);;
-    height: 383px ;
-}   
 
+#problematicas-second-img2 {
+    margin: 50px;
+    margin-bottom: 0px;
+    background-image: url('@imgs/problematicas-imeg2-desktop.png');
+    height: 80%;
+    
+}
+
+#problematicas-second-text {
+    font-size: 36px;
+}
 
 /*Small devices - Phones*/
 @media (max-width: 575.98px) {

@@ -1,14 +1,16 @@
 @import 'Vars';
 
 #navbar-container {
-    height: 89px;
-    width: 90%;
-    padding: 15px 100px 22px 100px;
+    height: 70px;
+    width: 100%;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: fixed;
     top: 0;
+    background-color: var(--yellow-bg);
+    border-radius: 0px 0px 100px 100px
 }
 #navbar-logo-mobile {
     display: none;
@@ -16,23 +18,34 @@
 #navbar-logo{
     width: 200px;
     height: 100%;
+    padding: 20px 0px 20px 100px ;
+    scale: 0.7;
     
 }
 
 #navbar-cta {
-    width: 250px;
+    width: 150px;
     height: 50%;
-    
     background-color: var(--action-green);
     border-radius: 49px;    
     color: white;
+    margin: 20px 100px  20px 0px  ;
     
 }
+
+.animate_navbar {
+    animation-name: slide_down;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+
 /*Small devices - Phones*/
 @media (max-width: 575.98px) {
     #navbar-container {
         height: 60px;
         padding: 15px 20px 22px 20px;
+        border-radius: 0px;
    
     }
     #navbar-logo{
@@ -61,3 +74,16 @@
 @media (max-width: 1365.98px) {
 
 }
+
+
+ @keyframes slide_down {
+    0% {
+        transform: translateY(-160px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+ }
+

@@ -1,6 +1,6 @@
 .CTA-final-container-full{
     display: flex;
-    margin: 0px 100px 100px 100px;
+    margin: 50px 100px ;
     height: 600px;
     padding-top: 20px;
     
@@ -9,9 +9,10 @@
 #CTA-final-img{
     width: 40%;
     height: 575px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url('@imgs/CTa-final-img-desktop.png');
+    background-size: cover;
     border-radius: 40px;
-    margin: 60px;
+    margin: 0px 60px 60px 60px;
 }
 
 .CTA-final-container {
@@ -42,6 +43,12 @@
 
 #CTA-final-button >button:hover {
     background-image: linear-gradient(to right top, #ff0000, #ff004c, #f8008c, #c000cc, #0038ff);
+}
+
+.CTA-final-list-items {
+    margin-bottom: 30px;
+    padding-right: 30px;
+    font-size: 24px;
 }
 
 /*Small devices - Phones*/

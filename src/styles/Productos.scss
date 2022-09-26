@@ -29,7 +29,9 @@
 }
 #producto-img {
     width: 500px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url('@imgs/productos-img-desktop.png');
+    background-size: cover;
+
 }
 
 .product-container-full > h1 {

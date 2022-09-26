@@ -6,6 +6,8 @@ import logoReduced from '@icons/aippiaLogoReduced.svg';
 
 const page = '/comments'
 
+const text_input = [ 'Compra Ya']
+
 const Navbar = () => {
     let navigate = useNavigate();
     function handleClick() {
@@ -16,7 +18,7 @@ const Navbar = () => {
     <div id="navbar-container">
         <img src={logoReduced} alt="Logo" id = "navbar-logo-mobile"/>
         <img src={logoExtended}  alt="Logo" id = "navbar-logo"/>
-        <button id = "navbar-cta" onClick={handleClick}> Compra Ya</button>
+        <button id = "navbar-cta" onClick={handleClick}> {text_input[0]}</button>
     </div>
     );
 }
