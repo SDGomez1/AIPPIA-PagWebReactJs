@@ -1,0 +1,1 @@
+function animate(n){var o=!1;return n&&o?(console.log("t"),o=!1,"animate_slide_in"):(o=!0,console.log("f"),"no-animation")}
