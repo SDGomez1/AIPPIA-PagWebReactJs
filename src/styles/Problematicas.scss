@@ -81,6 +81,9 @@
 
 /*Small devices - Phones*/
 @media (max-width: 575.98px) {
+    .problematicas-container{
+        height: 900px
+    }
     #problematicas-item-container {
         display: flex;
         flex-direction: column;
@@ -125,7 +128,7 @@
         padding: 0px;
         margin: 0px;
         background-color: var(--yellow-bg);
-        height: 88vh;
+        height: 800px;
     }
 
     #problematicas-second-img3 {
@@ -140,6 +143,8 @@
         padding: 0px 50px;
         text-align: left;
     }
+
+
     .problematicas-second-container>p {
         text-align: center;
         margin: 0px 0px 75px 0px;
@@ -155,6 +160,8 @@
 }
 
 /*Large devices - Desktop*/
-@media (max-width: 1365.98px    ) {
-
+@media (max-width: 1400px    ) {
+    .problematicas-container{
+        height: 1000px;
+    }
 }

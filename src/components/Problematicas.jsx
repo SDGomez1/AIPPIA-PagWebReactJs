@@ -64,8 +64,8 @@ const Problematicas = () => {
                 
                   
               
-                <div className="problematicas-second-container" id = 'problematicas-second-img3'>
-                    a
+                <div  id = 'problematicas-second-img3'>
+                    
                 </div>
                 <div className="problematicas-second-container" >
                     <p >
