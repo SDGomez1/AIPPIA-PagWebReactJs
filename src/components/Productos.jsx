@@ -8,10 +8,10 @@ const page = '/comments'
 const text_input = [
     '¿Cómo actuamos?',
     ' Vegetales cultivados en un ambiente controlado y cerrado',
-    'la producción se cultiva verticalmente',
-    'crece en condiciones óptimas para su desarrollo con control de luz, agua y nutrientes.',
+    'La producción se cultiva verticalmente',
+    'Crece en condiciones óptimas para su desarrollo con control de luz, agua y nutrientes.',
     'No se utilizan pesticidas ni químicos.',
-    ' Cultivados con técnicas hidropónicas.',
+    'Cultivados con técnicas hidropónicas.',
     'Se cultivan dentro de la ciudad',
     'Los quiero ya'
 ]

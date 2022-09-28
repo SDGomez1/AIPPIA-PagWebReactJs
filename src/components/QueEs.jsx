@@ -7,6 +7,7 @@ const text_input = [
 ]
 
 const QueEs = () => {
+    
     return (
         <div className="que-es-container">
         <div id = "que-es-text1">

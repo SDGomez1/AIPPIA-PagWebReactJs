@@ -1,7 +1,7 @@
 .problematicas-container{
     height: 100vh;
     /*background-image: url(./images/problematica-img.png);   */
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('@imgs/Problematicas-fullimg-desktop.png');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('@imgs/Problematicas-fullimg-desktop.jpg');
     
 }
 
@@ -82,7 +82,9 @@
 /*Small devices - Phones*/
 @media (max-width: 575.98px) {
     .problematicas-container{
-        height: 900px
+        height: 900px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('@imgs/Problematicas-fullimg-mobile.jpg');
+        background-size: cover;
     }
     #problematicas-item-container {
         display: flex;

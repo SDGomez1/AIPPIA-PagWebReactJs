@@ -17,14 +17,14 @@ const Navbar = () => {
     navigate(comments);
   }
     function handleClickHome() {
-      navigate(home)
+      window.scrollTo(0, 0)
     }
   
 
     return(
         
     <div id="navbar-container">
-        <img src={logoExtended} alt="Logo" id = "navbar-logo-mobile"/>
+        <img src={logoExtended} alt="Logo" id = "navbar-logo-mobile" onClick={handleClickHome}/>
         <img src={logoExtended}  alt="Logo" id = "navbar-logo" onClick={handleClickHome}/>
         <button id = "navbar-cta" onClick={handleClickComments}> {text_input[0]}</button>
         <img src={cartLogo} alt="cart" onClick={handleClickComments} id = "cartLogo"/>

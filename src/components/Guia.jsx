@@ -2,7 +2,7 @@ import React from 'react';
 import '@styles/Guia.scss'
 
 const text_input = [
-    'Es desilucionante...',
+    'Es desilusionante...',
     'Querer luchar por el planeta mientras otros hacen lo contrario, afectando todo tu trabajo y esfuerzo, puede resultar desesperante verdad?',
     'Hacer miles de cambios en tu vida para ayudar al medio ambiente para que despues sea insuficiente e invisibilizado por las mismas prácticas de siempre.. Querer alzar tu voz para ayudar a los problemas ambientales pero simplemente no eres escuchado, el planeta se degrada y la vida desaparece, se vuelve más dificil hacer un cambio por ti mismo y ya no sabes que hacer...',
     '¡Pero ahora estas Aquí!',
